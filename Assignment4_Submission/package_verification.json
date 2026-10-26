@@ -1,0 +1,13 @@
+{
+  "archive_filename": "Assignment4_Promethean_Completed_Review.zip",
+  "archive_bytes": 214058,
+  "archive_sha256": "52fc32c66ba8943f2e3498401bddf3de9f35822a1efefbc25867c57a5db406f5",
+  "expected_git_blob_sha": "ebb9ae12833359c954ae355472ac47b688d0c7a9",
+  "baseline_package_entries_unchanged": "30/30",
+  "raw_primary_and_contrast_preserved": true,
+  "actual_output_validations": 2,
+  "hype_and_repair_retests": "not performed",
+  "student_review_still_required": true,
+  "repository": "https://github.com/kk6146/MASY1800-Emerging-Technologies",
+  "branch": "assignment4-submission-2026-10-26"
+}
