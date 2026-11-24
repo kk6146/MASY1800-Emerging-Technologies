@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "A tool-using generative AI assistant that retrieves equipment manuals, alarm histories and work orders and presents cited diagnostic leads for technician review.",
+  "intended_application": "Triage repeat stoppages on a carton packaging line",
+  "organization": "Fictional mid-sized U.S. packaging plant",
+  "industry_sector": "Packaging manufacturing",
+  "business_need": "Shorten time to locate correct diagnostic evidence",
+  "users_stakeholders": "Maintenance technicians, engineering, IT/OT and operations",
+  "adoption_posture": "Moderate fast follower",
+  "capabilities_constraints": "Mixed-OEM line, PDF manuals, alarm exports, CMMS work-order history, limited integration budget",
+  "risk_consequence_context": "Bad guidance can delay repairs or endanger people or equipment. Technicians retain authority.",
+  "management_question": "Should management pilot a read-only AI maintenance assistant on one packaging line?",
+  "time_horizon": "One quarter",
+  "additional_context": "U.S. assessment dated November 23, 2026."
+}
