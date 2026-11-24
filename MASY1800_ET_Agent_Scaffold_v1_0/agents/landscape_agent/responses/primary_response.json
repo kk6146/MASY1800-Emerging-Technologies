@@ -1,0 +1,57 @@
+{
+  "agent": {
+    "name": "Emerging Technology Landscape Agent",
+    "specialty": "Technology landscape and monitoring",
+    "version": "1.0"
+  },
+  "analytical_question": "Should management pilot a read-only AI maintenance assistant on one packaging line?",
+  "general_et_finding": "As of November 23, 2026, industrial AI maintenance assistants are credible candidates for pilot evaluation. Siemens's announcement and IBM's documented lookup capabilities show different approaches to equipment information. Comparable-site effectiveness, adoption rates, mixed-OEM coverage and total cost remain uncertain.",
+  "application_finding": "Compare the AI assistant against indexed OEM manuals, alarm references and technician-led CMMS lookup. Predictive monitoring can complement either option by flagging anomalies. Mixed-OEM equipment and consistent asset identifiers are key integration dependencies.",
+  "organization_specific_finding": "Evaluate one line in a shadow pilot using exported records and technician review. Keep the test isolated from machine control.",
+  "evidence": [
+    {
+      "claim": "Siemens announced Operations Copilot for machine-data queries and troubleshooting.",
+      "source_or_reference": "https://press.siemens.com/global/en/pressrelease/siemens-introduces-ai-agents-industrial-automation",
+      "date_or_recency": "2025-05-12",
+      "evidence_type": "Vendor announcement",
+      "notes": "Evidence of direction. Verify current U.S. availability and mixed-OEM coverage."
+    },
+    {
+      "claim": "IBM documents Maximo Mobile asset and work-order lookup for Maximo Application Suite 9.2.",
+      "source_or_reference": "https://www.ibm.com/docs/en/masv-and-l/cd?topic=assistant-testing",
+      "date_or_recency": "Undated documentation, checked 2026-11-23",
+      "evidence_type": "Vendor technical documentation",
+      "notes": "Lookup is an adjacent capability. Site diagnostic performance is unknown."
+    },
+    {
+      "claim": "NIST describes confabulation and automation bias as generative AI risks.",
+      "source_or_reference": "https://nvlpubs.nist.gov/nistpubs/AI/NIST.AI.600-1.pdf",
+      "date_or_recency": "July 2024",
+      "evidence_type": "Independent public technical guidance",
+      "notes": "Supports testing retrieval and citations on representative cases."
+    },
+    {
+      "claim": "NIST OT guidance addresses security, reliability and safety.",
+      "source_or_reference": "https://csrc.nist.gov/pubs/sp/800/82/r3/final",
+      "date_or_recency": "2023-09-28",
+      "evidence_type": "Public technical guidance",
+      "notes": "Supports reviewing read-only isolation and access with plant IT/OT."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "A better-indexed incumbent workflow may match the assistant's value. Comparable site benchmarks and quotes were unavailable.",
+    "Stale-sensitive claim: the May 2025 Siemens announcement establishes product direction. Current U.S. availability and exact mixed-OEM compatibility remain unverified. Refresh monthly from regional product documentation and require a site-representative demo before relying on this claim for procurement. Recheck after any connector or equipment change."
+  ],
+  "confidence_and_uncertainty": "Moderate confidence in the evaluation path. Low confidence in performance, economics and coverage until measured on site.",
+  "value_opportunity_implication": "Potential to shorten the time technicians spend locating the correct evidence for recurring faults.",
+  "risk_governance_implication": "Technicians retain authority. Escalate missing or conflicting citations and keep the tool out of equipment control.",
+  "recommendation_management_implication": "Run a one-line shadow evaluation against the existing workflow. Decide on expansion after matched replay and compatibility testing.",
+  "change_monitoring_triggers": [
+    "Maintenance reviews replay weekly. Illustrative expansion gate: at least 20% lower median time to the correct source across at least 30 matched representative incidents, no drop in citation accuracy and no unsafe advice in the sample. Pause on unsafe advice.",
+    "IT/OT reviews support and pricing monthly and before procurement. Confirm coverage through a current mixed-OEM demo and itemized quote."
+  ],
+  "abstention_or_more_information_needed": [
+    "Defer vendor selection and ROI estimates until site-specific quotes, representative incident data and interface details are available.",
+    "Keep evaluation offline when equipment mapping, source revisions or access boundaries cannot be verified."
+  ]
+}
