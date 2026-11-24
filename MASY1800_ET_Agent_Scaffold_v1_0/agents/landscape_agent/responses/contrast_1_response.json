@@ -1,0 +1,71 @@
+{
+  "agent": {
+    "name": "Emerging Technology Landscape Agent",
+    "specialty": "Technology landscape and monitoring",
+    "version": "1.0"
+  },
+  "analytical_question": "What evidence would justify moving from offline replay to a controlled production trial?",
+  "general_et_finding": "As of November 23, 2026, industrial AI maintenance assistants are credible candidates for pilot evaluation. Siemens's announcement and IBM's documented lookup capabilities show different approaches to equipment information. Comparable-site effectiveness, adoption rates, mixed-OEM coverage and total cost remain uncertain.",
+  "application_finding": "Compare AI retrieval against controlled document search and approved maintenance records. A read-only historian can complement either approach. Accurate citations to current approved revisions matter more than breadth.",
+  "organization_specific_finding": "Use authorized copies for offline replay and involve Quality and validation before any production workflow change.",
+  "evidence": [
+    {
+      "claim": "Siemens announced Operations Copilot for machine-data queries and troubleshooting.",
+      "source_or_reference": "https://press.siemens.com/global/en/pressrelease/siemens-introduces-ai-agents-industrial-automation",
+      "date_or_recency": "2025-05-12",
+      "evidence_type": "Vendor announcement",
+      "notes": "Evidence of direction. Verify current U.S. availability and mixed-OEM coverage."
+    },
+    {
+      "claim": "IBM documents Maximo Mobile asset and work-order lookup for Maximo Application Suite 9.2.",
+      "source_or_reference": "https://www.ibm.com/docs/en/masv-and-l/cd?topic=assistant-testing",
+      "date_or_recency": "Undated documentation, checked 2026-11-23",
+      "evidence_type": "Vendor technical documentation",
+      "notes": "Lookup is an adjacent capability. Site diagnostic performance is unknown."
+    },
+    {
+      "claim": "NIST describes confabulation and automation bias as generative AI risks.",
+      "source_or_reference": "https://nvlpubs.nist.gov/nistpubs/AI/NIST.AI.600-1.pdf",
+      "date_or_recency": "July 2024",
+      "evidence_type": "Independent public technical guidance",
+      "notes": "Supports testing retrieval and citations on representative cases."
+    },
+    {
+      "claim": "NIST OT guidance addresses security, reliability and safety.",
+      "source_or_reference": "https://csrc.nist.gov/pubs/sp/800/82/r3/final",
+      "date_or_recency": "2023-09-28",
+      "evidence_type": "Public technical guidance",
+      "notes": "Supports reviewing read-only isolation and access with plant IT/OT."
+    },
+    {
+      "claim": "Drug CGMP provisions address written equipment-maintenance procedures and applicable logs.",
+      "source_or_reference": "https://www.law.cornell.edu/cfr/text/21/211.67 | https://www.law.cornell.edu/cfr/text/21/211.182",
+      "date_or_recency": "Amended September 2008",
+      "evidence_type": "Federal regulation, reproduced by Cornell LII",
+      "notes": "Quality should determine how these provisions apply to the proposed workflow."
+    },
+    {
+      "claim": "FDA guidance describes risk-based management of drug CGMP data integrity.",
+      "source_or_reference": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/data-integrity-and-compliance-drug-cgmp-questions-and-answers",
+      "date_or_recency": "December 2018",
+      "evidence_type": "Regulator guidance",
+      "notes": "Supports a Quality review of intended use and record integrity."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "A better-indexed incumbent workflow may match the assistant's value. Comparable site benchmarks and quotes were unavailable.",
+    "Stale-sensitive claim: the May 2025 Siemens announcement establishes product direction. Current U.S. availability and exact mixed-OEM compatibility remain unverified. Refresh monthly from regional product documentation and require a site-representative demo before relying on this claim for procurement. Recheck after any connector or equipment change."
+  ],
+  "confidence_and_uncertainty": "Moderate confidence in the evaluation path. Low confidence in performance, economics and coverage until measured on site.",
+  "value_opportunity_implication": "Potential to shorten the time technicians spend locating the correct evidence for recurring faults.",
+  "risk_governance_implication": "Keep approved records and procedures authoritative. Verify traceability and access with Quality.",
+  "recommendation_management_implication": "Retain the incumbent workflow in production. Consider a controlled trial only after QA approves the intended use and change-control plan.",
+  "change_monitoring_triggers": [
+    "Quality reviews offline replay monthly. Reassess when each sampled citation resolves to the correct approved revision and Quality approves intended use, access and change control.",
+    "Quality reviews regulatory updates quarterly and upon workflow scope changes."
+  ],
+  "abstention_or_more_information_needed": [
+    "Defer vendor selection and ROI estimates until site-specific quotes, representative incident data and interface details are available.",
+    "Keep evaluation offline when equipment mapping, source revisions or access boundaries cannot be verified."
+  ]
+}
