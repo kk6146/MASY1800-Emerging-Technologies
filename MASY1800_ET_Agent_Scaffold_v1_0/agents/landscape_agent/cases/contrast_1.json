@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "A tool-using generative AI assistant that retrieves equipment manuals, alarm histories and work orders and presents cited diagnostic leads for technician review.",
+  "intended_application": "Triage repeat stoppages on a regulated drug packaging line",
+  "organization": "Fictional U.S. finished-drug manufacturer",
+  "industry_sector": "Pharmaceutical manufacturing",
+  "business_need": "Find approved evidence faster while preserving traceability",
+  "users_stakeholders": "Maintenance, Quality, validation, operations and IT/OT",
+  "adoption_posture": "Conservative",
+  "capabilities_constraints": "Controlled procedures, approved maintenance records, QA change control and authorized offline extracts",
+  "risk_consequence_context": "Errors can affect product quality and record integrity. Quality owns production approval.",
+  "management_question": "What evidence would justify moving from offline replay to a controlled production trial?",
+  "time_horizon": "Six to twelve months",
+  "additional_context": "U.S. assessment dated November 23, 2026."
+}
